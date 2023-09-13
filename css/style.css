@@ -3,3 +3,81 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+.debug{
+    border: 5px solid black;
+}
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 5px 0px;
+
+}
+header{
+    background-color: #FF6900;
+    /* position: fixed; */
+}
+li{
+    list-style: none;
+    padding: 5px;
+}
+a{
+    color: #ffffff;
+    text-decoration: none;
+    
+}
+.logo{
+    max-width: 100px;
+    max-height: 100px;
+}
+.icon{
+    display: inline;
+    width: 200px;
+    height: 50px;
+}
+i{
+    width: 20px;
+    height: 20px;
+}
+img{
+    width: 100%;
+}
+.card{
+    width: calc(100% / 3);
+    padding: 0px 5px 20px;
+    min-width: 300px;
+}
+.card-content{
+    position: relative;
+}
+.sconto{
+    position: absolute;
+    bottom: 20px;
+    left: 0px;
+    padding: 5px;
+    background-color: red;
+}
+.sostenibilita{
+    position: absolute;
+    bottom: 20px;
+    left: 50px;
+    padding: 5px;
+    background-color: green;
+}
+/* FLEX  */
+
+.d-flex{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+}
+.card-wrap{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: flex-start;
+    align-content: flex-start;
+
+}
