@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="css/style.css">
     <title>Boolando</title>
 </head>
@@ -10,16 +11,15 @@
     <header>
         <nav class="container d-flex">
             <ul class="d-flex">
-                <li><a href="">Donna</a></li>
-                <li><a href="">Uomo</a></li>
-                <li><a href="">Bambini</a></li>
+                <li><a href="#">Donna</a></li>
+                <li><a href="#">Uomo</a></li>
+                <li><a href="#">Bambini</a></li>
             </ul>
             <img class="logo" src="img/boolean-logo.png" alt="logo">
             <div class="icon d-flex">
                 <i class="fa-regular fa-user fa-xs" style="color: #ffffff;"></i>
                 <i class="fa-regular fa-heart fa-xs" style="color: #ffffff;"></i>
-                <i class="fa-regular fa-bag-shopping fa-xs" style="color: #ffffff;"></i>
-
+                <i class="fa-solid fa-bag-shopping fa-xs" style="color: #ffffff;"></i>
             </div>
             
         </nav>
@@ -27,24 +27,79 @@
 
     <main>
         <div class="container ">
-            <div class="card-wrap debug">
-                <div class="card debug">
+            <div class="card-wrap">
+                <div class="card">
                     <div class="card-content">
-                        <img src="img/1.webp" alt="immagine">
+                        <img class="img1" src="img/1.webp" alt="immagine">
                         <div class="sconto">-50%</div>
                         <div class="sostenibilita">Sostenibilità</div>
+                        <span class="heart">&hearts;</span>
+                    </div>
+                    <div class="text">
+                        <div>Levi's</div>
+                        <div><strong>RELAXED FIT TEE UNISEX</strong></div>
+                        <div>14,99 &euro; 29,99</div>
                     </div>
                 </div>
-                <div class="card debug">
+                
+                <div class="card">
                     <div class="card-content">
                         <img src="img/2.webp" alt="immagine">
                         <div class="sconto">-30%</div>
+                        <span class="heart">&hearts;</span>
+                    </div>
+                    <div class="text">
+                        <div>Guess</div>
+                        <div><strong>ROSES TEE</strong></div>
+                        <div>20,99 &euro; 29,99</div>
                     </div>
                 </div>
-                <div class="card debug">
+                <div class="card">
                     <div class="card-content">
                         <img src="img/3.webp" alt="immagine">
                         <div class="sconto">-30%</div>
+                        <span class="heart">&hearts;</span>
+                    </div>
+                    <div class="text">
+                        <div>Come Zucchero Filato</div>
+                        <div><strong>VOGLIA DI COLORI PASTELLO</strong></div>
+                        <div>129,99 &euro; 184,99</div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-content">
+                        <img src="img/4.webp" alt="immagine">
+                        <div class="sconto">-50%</div>
+                        <div class="sostenibilita">Sostenibilità</div>
+                        <span class="heart">&hearts;</span>
+                    </div>
+                    <div class="text">
+                        <div>Levi's</div>
+                        <div><strong>TEE UNISEX</strong></div>
+                        <div>14,99 &euro; 29,99</div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-content">
+                        <img src="img/5.webp" alt="immagine">
+                        <span class="heart">&hearts;</span>
+                    </div>
+                    <div class="text">
+                        <div>Maya Deluxe</div>
+                        <div><strong>STRIPE BODICE</strong></div>
+                        <div class="price">99.99 &euro;</div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-content">
+                        <img src="img/6.webp" alt="immagine">
+                        <div class="sostenibilita1">Sostenibilità</div>
+                        <span class="heart">&hearts;</span>
+                    </div>
+                    <div class="text">
+                        <div>Esprit</div>
+                        <div><strong>MAGLIONE - BLACK</strong></div>
+                        <div class="price">29.99 &euro;</div>
                     </div>
                 </div>
             </div>
@@ -54,7 +109,26 @@
     </main>
     
     <footer>
-
+        <div class="container d-flex">
+            <div class="info">
+                <strong>Boolando s.r.l</strong>
+                <ul class="d-flex">
+                    <li><a href="#">Informazioni legali</a></li>
+                    <li><a href="#">Informativa sulla privacy</a></li>
+                    <li><a href="#">Diritto di recesso</a></li>
+                </ul>
+            </div>
+            <div class="info">
+                <strong>Trovaci anche su:</strong>
+                <div class="d-flex">
+                    <i class="fa-brands fa-square-twitter" style="color: #ffffff;"></i>
+                    <i class="fa-brands fa-square-facebook" style="color: #ffffff;"></i>
+                    <i class="fa-brands fa-square-instagram" style="color: #ffffff;"></i>
+                    <i class="fa-brands fa-square-pinterest" style="color: #ffffff;"></i>
+                    <i class="fa-brands fa-square-youtube" style="color: #ffffff;"></i>
+                </div>
+            </div>
+        </div>
     </footer>
     
 </body>

@@ -3,18 +3,21 @@
     padding: 0;
     box-sizing: border-box;
 }
-
-.debug{
-    border: 5px solid black;
-}
 .container{
     max-width: 1200px;
     margin: 0 auto;
     padding: 5px 0px;
-
+}
+.img1:hover{
+    background: url(../img/1b.webp);
 }
 header{
     background-color: #FF6900;
+}
+footer{
+    background-color: #1A1A1A;
+}
+nav{
     /* position: fixed; */
 }
 li{
@@ -32,8 +35,8 @@ a{
 }
 .icon{
     display: inline;
-    width: 200px;
-    height: 50px;
+    /* width: 200px;
+    height: 50px; */
 }
 i{
     width: 20px;
@@ -55,6 +58,7 @@ img{
     bottom: 20px;
     left: 0px;
     padding: 5px;
+    color: white;
     background-color: red;
 }
 .sostenibilita{
@@ -62,7 +66,31 @@ img{
     bottom: 20px;
     left: 50px;
     padding: 5px;
+    color: white;
+    background-color: green;   
+}
+.sostenibilita1{
+    position: absolute;
+    bottom: 20px;
+    left: 0px;
+    padding: 5px;
+    color: white;
     background-color: green;
+}
+.price{
+    color: red;
+    
+}
+.heart{
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    padding: 5px;
+    background-color: white;
+    size: 1em;
+}
+.info{
+    color: #ffffff;
 }
 /* FLEX  */
 
