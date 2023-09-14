@@ -11,14 +11,26 @@
 .img1:hover{
     background: url(../img/1b.webp);
 }
+.c-image .img2{
+    display: none;
+}
+.c-image:hover .img2{
+    display: block;
+}
+.c-image:hover .img1{
+    display: none;
+}
 header{
+    padding-top: 10px;
     background-color: #FF6900;
+    z-index: 5000000;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
 }
 footer{
     background-color: #1A1A1A;
-}
-nav{
-    /* position: fixed; */
 }
 li{
     list-style: none;
